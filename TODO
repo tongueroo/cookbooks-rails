@@ -1,0 +1,5 @@
+* use different users aside from root for everything to lock down security (a deploy user)
+* if not using ebs, mount —bind the /mnt partition to /var so you have a lot more space than the shitty 10gb in the / partition
+* if using ebs, mount the ebs, resize and use that
+* passenger3 instead of passenger2
+* ruby 1.9.2 instead of ruby 1.8.7
