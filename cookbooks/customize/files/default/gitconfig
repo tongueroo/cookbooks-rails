@@ -1,0 +1,31 @@
+[user]
+  name = Demo User
+  email = demouser@email.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  b = branch
+  br = branch
+  ci = commit
+  co = checkout
+  st = status
+  praise = blame 
+  wc = whatchanged
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[apply]
+  whitespace = strip
+[diff]
+  color = auto
+  rename = copy 
+[pager]
+  color = true 
+[status]
+  color = auto
+[merge]
+  tool = opendiff
+[core]
+  excludesfile = /root/.gitignore
+[push]
+	default = matching

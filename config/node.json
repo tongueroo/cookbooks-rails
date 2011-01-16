@@ -1,0 +1,21 @@
+{
+  "ec2": true,
+  "environment": {"name":"production"},
+  "mysql_root_password":"whateever",
+  "packages":[
+    {"name": "git-core"},
+    {"name": "curl"}
+  ],
+  "gems":[
+    {"name": "bundler", "version": "1.0.7"}
+  ],
+  "recipes":[
+    "mysql::server",
+    "packages",
+    "gems", 
+    "apache2", 
+    "apache2_passenger", 
+    "sites", 
+    "customize"
+  ]
+}
