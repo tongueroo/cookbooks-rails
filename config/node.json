@@ -7,7 +7,8 @@
     {"name": "curl"}
   ],
   "gems":[
-    {"name": "bundler", "version": "1.0.7"}
+    {"name": "bundler", "version": "1.0.7"},
+    {"name": "rails"}
   ],
   "recipes":[
     "mysql::server",
